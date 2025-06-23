@@ -1,0 +1,2 @@
+# Visualization-Tool-for-Electric-Vehicle-Charge-and-Range-Analysis
+The Visualization Tool for Electric Vehicle Charge and Range Analysis is designed to turn complex EV data into clear, interactive visuals. By analyzing multiple datasets from India and around the world, it helps users understand charging behavior, battery performance, and range trends, supporting smarter decisions and a more sustainable future
