@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Electric Vehicles</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <h1>Electric Vehicles</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#story">Story</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero">
+  <div class="hero-text">
+    <h2>Welcome to the Electric Vehicles Portal</h2>
+    <p>Explore insightful data and stories on EVs in India</p>
+  </div>
+
+  <img src="https://static.vecteezy.com/system/resources/previews/034/723/173/non_2x/electric-car-charging-station-free-png.png" alt="EV image" class="hero-image">
+</div>
+
+
+
+  <!-- Dashboard Section -->
+  <section id="dashboard">
+    <div class="container">
+      <h2>Electric Vehicles Dashboard</h2>
+      <div class='tableauPlaceholder' id='viz1751112169059' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/El/ElectricVehiclesDashboard_17511120805120/Dashboard1/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='ElectricVehiclesDashboard_17511120805120/Dashboard1' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/El/ElectricVehiclesDashboard_17511120805120/Dashboard1/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1751112169059');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  if (divElement.offsetWidth > 800) {
+    vizElement.style.width = '1500px';
+    vizElement.style.height = '1927px';
+  } else if (divElement.offsetWidth > 500) {
+    vizElement.style.width = '1500px';
+    vizElement.style.height = '1927px';
+  } else {
+    vizElement.style.width = '100%';
+    vizElement.style.height = '2377px';
+  }
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+  <!-- Story Section -->
+  <section id="story">
+    <div class="container">
+      <h2>EV Story</h2>
+      <div class='tableauPlaceholder' id='viz1751124324874' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt='Story Of Electric Cars In India ' src='https://public.tableau.com/static/images/El/ElectronicVehicles_17511119851150/StoryOfElectricCarsInIndia/1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='ElectronicVehicles_17511119851150/StoryOfElectricCarsInIndia' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https://public.tableau.com/static/images/El/ElectronicVehicles_17511119851150/StoryOfElectricCarsInIndia/1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+    <param name='language' value='en-US' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1751124324874');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width = '1016px';
+  vizElement.style.height = '991px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+
+  <!-- Load Tableau Script -->
+  <script type='text/javascript'>
+    function loadTableau(id) {
+      var vizElement = document.getElementById(id).getElementsByTagName('object')[0];
+      vizElement.style.width = '100%';
+      vizElement.style.height = '900px';
+      var scriptElement = document.createElement('script');
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    }
+
+    window.onload = function() {
+      loadTableau('dashboardViz');
+      loadTableau('storyViz');
+    };
+  </script>
+
+</body>
+</html>
