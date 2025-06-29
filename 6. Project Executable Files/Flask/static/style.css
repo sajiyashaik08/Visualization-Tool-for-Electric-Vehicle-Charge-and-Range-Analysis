@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  background-color: #0b1f8d;
+  padding: 20px;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+
+/* Hero Section */
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.hero-text {
+  margin-bottom: 20px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002366;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #002366;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Section Titles */
+section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #050505;
+}
+
+/* Tableau Embeds */
+.tableauPlaceholder {
+  width: 100%;
+  height: 900px;
+  margin-top: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tableauPlaceholder {
+    height: 600px;
+  }
+}
